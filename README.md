@@ -1,2 +1,2 @@
-# trading-bot-dashboard
+# index.html
 ready to run bot
