@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVK Holdings</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: #111;
+            border-bottom: 1px solid #222;
+        }
+
+        header h1 {
+            color: #00ffcc;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #ccc;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ffcc;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #aaa;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: #00ffcc;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .card {
+            background: #111;
+            padding: 30px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #00ffcc;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #00ffcc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #222;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SVK Holdings</h1>
+    <nav>
+        <a href="#">Trading</a>
+        <a href="#">Construction</a>
+        <a href="#">QS</a>
+        <a href="#">Developments</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Building Financial Engines & Real-World Infrastructure</h2>
+    <p>From smart trading systems to construction and development — creating scalable solutions for the future.</p>
+    <button class="btn">Explore Trading</button>
+</section>
+
+<section class="sections">
+
+    <div class="card">
+        <h3>Trading</h3>
+        <p>Advanced liquidity-based trading systems powered by smart money concepts, volume analysis, and automation.</p>
+    </div>
+
+    <div class="card">
+        <h3>Construction</h3>
+        <p>Reliable site support, preparation, and execution services focused on efficiency and quality delivery.</p>
+    </div>
+
+    <div class="card">
+        <h3>Quantity Surveying</h3>
+        <p>Accurate measurements, BOQs, and cost control solutions for construction and development projects.</p>
+    </div>
+
+    <div class="card">
+        <h3>Developments</h3>
+        <p>Future-focused projects including lodges, rentals, and scalable real estate investments.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 SVK Holdings | Seallesvik Holdings</p>
+</footer>
+
+</body>
+</html>
